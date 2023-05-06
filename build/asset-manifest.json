@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.901700a3.css",
+    "main.js": "/static/js/main.43ebd15d.js",
+    "static/media/background.png": "/static/media/background.a21356488aece3a817bb.png",
+    "static/media/Lua.png": "/static/media/Lua.75b91ed41c3579518d15.png",
+    "static/media/Mercurio.png": "/static/media/Mercurio.2b56e20d81946126968d.png",
+    "static/media/Terra.png": "/static/media/Terra.d24c70a9680abd932c96.png",
+    "static/media/Marte.png": "/static/media/Marte.d5967174d6bf57d25249.png",
+    "static/media/Jupiter.png": "/static/media/Jupiter.b017df403895aa3e4156.png",
+    "static/media/Venus.png": "/static/media/Venus.a5931670cd44c7fe0d4e.png",
+    "static/media/Netuno.png": "/static/media/Netuno.99b947a41bbe8113f0a7.png",
+    "static/media/Saturno.png": "/static/media/Saturno.00b7295f54e9af9bbe90.png",
+    "static/media/Urano.png": "/static/media/Urano.961878a655f4a1cdf4ce.png",
+    "static/media/Sol.png": "/static/media/Sol.3c6e3584f1ee4a50433a.png",
+    "static/media/título.png": "/static/media/título.4cb3c876779dada8073d.png",
+    "static/media/logoGithub.svg": "/static/media/logoGithub.c583640f2612c77144a66c092c60cf9f.svg",
+    "static/media/logoLinkedIn.svg": "/static/media/logoLinkedIn.a2a75badd06e53bf0a73f6a7c9b594be.svg",
+    "static/media/logoTrybe.svg": "/static/media/logoTrybe.57227e102db37b2fdf7b2ff53a0cb171.svg",
+    "static/media/calendario.svg": "/static/media/calendario.78445f8550717deea0fde5a782b9908e.svg",
+    "static/media/bandeira.svg": "/static/media/bandeira.4dfc01cbc50c0ff92d1dbe4146ea9676.svg",
+    "index.html": "/index.html",
+    "static/media/local.svg": "/static/media/local.040521c70ed1059c5ae94d7f5a8721d1.svg",
+    "main.901700a3.css.map": "/static/css/main.901700a3.css.map",
+    "main.43ebd15d.js.map": "/static/js/main.43ebd15d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.901700a3.css",
+    "static/js/main.43ebd15d.js"
+  ]
+}

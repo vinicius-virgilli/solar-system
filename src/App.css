@@ -1,0 +1,641 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300&display=swap');
+
+* {
+  text-align: center;
+}
+
+:root {
+  align-content: center;
+  align-items: center;
+  background-image: url('./images/background.png');
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-family: Epilogue , sans-serif;
+  overflow-x: hidden;
+  width: 100vw;
+}
+
+header {
+  margin-top: 50px;
+  width: 100vw;
+}
+
+.tituloImg {
+  width: 33vw;
+}
+
+p {
+  font-size: 20px;
+}
+
+.solarSystem {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 400px;
+  width: 100vw;
+}
+
+.solarSystem h2 {
+  line-height: 60px;
+  font-size: 40px;
+  font-weight: 300;
+  margin-top: 0;
+  text-align: center;
+}
+
+.Sol {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  left: 595px;
+  position: absolute;
+  top: 392px;
+  width: 110px;
+}
+
+#Sol {
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgb(255, 255, 255) , 0 0 10px rgb(255, 255, 255) , 0 0 0 rgb(255, 255, 255) , 0 0 0.8rem -5px rgb(255, 255, 255) , 0 0 2.4rem -5px rgb(255, 255, 255) , inset 0 0 0 rgb(255, 255, 255);
+  height: 90px;
+  margin-left: 7px;
+  width: auto;
+  z-index: 2;
+}
+
+.orbitaMercúrio {
+  border: 1px solid white;
+  border-radius: 50%;
+  box-sizing: border-box;
+  height: 200px;
+  left: 570px;
+  opacity: 0.4;
+  position: absolute;
+  top: 336.5px;
+  width: 200px;
+}
+
+.Mercúrio {
+  align-items: center;
+  animation: Mercúrio 4s infinite linear;
+  display: flex;
+  height: 200px;
+  left: 572px;
+  position: absolute;
+  top: 335px;
+  z-index: 2;
+}
+
+@keyframes Mercúrio {
+
+  from {
+    transform: rotate(0deg) translate(-100px, 0) rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg) translate(-100px, 0) rotate(-360deg);
+  }
+}
+
+#Mercúrio {
+  height: 13px;
+  margin-left: 5px;
+  width: auto;
+}
+
+.orbitaVênus {
+  border: 1px solid white;
+  border-radius: 50%;
+  box-sizing: border-box;
+  height: 270px;
+  left: 535px;
+  opacity: 0.4;
+  position: absolute;
+  top: 305px;
+  width: 270px;
+}
+
+.Vênus {
+  align-items: center;
+  animation: Vênus 8s infinite linear;
+  display: flex;
+  height: 200px;
+  left: 592px;
+  position: absolute;
+  top: 336px;
+  z-index: 2;
+}
+
+@keyframes Vênus {
+
+  from {
+    transform: rotate(0deg) translate(-135px, 0) rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg) translate(-135px, 0) rotate(-360deg);
+  }
+}
+
+#Vênus {
+  height: 30px;
+  margin-left: 5px;
+  width: auto;
+}
+
+.orbitaTerra {
+  border: 1px solid white;
+  border-radius: 50%;
+  box-sizing: border-box;
+  height: 340px;
+  left: 500px;
+  opacity: 0.4;
+  position: absolute;
+  top: 266px;
+  width: 340px;
+}
+
+.divTerraLua {
+  animation: Terra 10s infinite linear;
+  display: flex;
+  left: 600px;
+  position: absolute;
+  top: 405px;
+  width: 140px;
+  z-index: 2;
+}
+
+@keyframes Terra {
+
+  from {
+    transform: rotate(0deg) translate(-170px, 0) rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg) translate(-170px, 0) rotate(-360deg);
+  }
+}
+
+#Terra {
+  bottom: 0;
+  height: 30px;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: auto;
+}
+
+#Lua {
+  animation: Lua 1s infinite linear;
+  height: 10px;
+  left: 46%;
+  position: absolute;
+  top: 44%;
+  width: auto;
+}
+
+@keyframes Lua {
+
+  from {
+    transform: rotate(0deg) translate(-30px, 0) rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg) translate(-30px, 0) rotate(-180deg);
+  }
+}
+
+.orbitaMarte {
+  border: 1px solid white;
+  border-radius: 50%;
+  box-sizing: border-box;
+  height: 390px;
+  left: 475px;
+  opacity: 0.4;
+  position: absolute;
+  top: 240px;
+  width: 390px;
+}
+
+.Marte {
+  align-items: center;
+  animation: Marte 18.8s linear infinite;
+  display: flex;
+  height: 5vw;
+  left: 600px;
+  position: absolute;
+  top: 400px;
+  width: 140px;
+  z-index: 3;
+}
+
+#Marte {
+  height: 25px;
+  width: auto;
+}
+
+@keyframes Marte {
+
+  from {
+    transform: rotate(0deg) translate(-195px, 0) rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg) translate(-195px, 0) rotate(-360deg);
+  }
+}
+
+.orbitaJúpiter {
+  border: 1px solid white;
+  border-radius: 50%;
+  box-sizing: border-box;
+  height: 450px;
+  left: 445px;
+  opacity: 0.4;
+  position: absolute;
+  top: 210px;
+  width: 450px;
+}
+
+.Júpiter {
+  align-items: center;
+  animation: Júpter 118.6s linear infinite;
+  display: flex;
+  height: 5vw;
+  left: 565px;
+  position: absolute;
+  top: 402px;
+  z-index: 2;
+}
+
+#Júpiter {
+  height: 65px;
+  width: auto;
+}
+
+@keyframes Júpter {
+
+  from {
+    transform: rotate(0deg) translate(-226px, 0) rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg) translate(-226px, 0) rotate(-360deg);
+  }
+
+}
+
+.orbitaSaturno {
+  border: 1px solid white;
+  border-radius: 50%;
+  box-sizing: border-box;
+  height: 520px;
+  left: 410px;
+  opacity: 0.4;
+  position: absolute;
+  top: 177px;
+  width: 520px;
+}
+
+.Saturno {
+  align-items: center;
+  animation: Saturno 294.6s linear infinite;
+  display: flex;
+  height: 70px;
+  justify-content: center;
+  left: 548px;
+  position: absolute;
+  top: 401px;
+  z-index: 2;
+}
+
+@keyframes Saturno {
+
+  from {
+    transform: rotate(0deg) translate(-260px, 0) rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg) translate(-260px, 0) rotate(-360deg);
+  }
+}
+
+#Saturno {
+  height: 70px;
+  width: auto;
+}
+
+.orbitaUrano {
+  border: 1px solid white;
+  border-radius: 50%;
+  box-sizing: border-box;
+  height: 590px;
+  left: 374px;
+  opacity: 0.4;
+  position: absolute;
+  top: 143px;
+  width: 590px;
+}
+
+.Urano {
+  align-items: center;
+  animation: Urano 840.1s linear infinite;
+  display: flex;
+  left: 583px;
+  position: absolute;
+  top: 405px;
+  z-index: 2;
+}
+
+#Urano {
+  height: 50px;
+  width: auto;
+}
+
+@keyframes Urano {
+
+  from {
+    transform: rotate(0deg) translate(-295px, 0) rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg) translate(-295px, 0) rotate(-360deg);
+  }
+}
+
+.orbitaNetuno {
+  border: 1px solid white;
+  border-radius: 50%;
+  box-sizing: border-box;
+  height: 660px;
+  left: 340px;
+  opacity: 0.4;
+  position: absolute;
+  top: 107px;
+  width: 660px;
+}
+
+.Netuno {
+  align-items: center;
+  animation: Netuno 1647.9s linear infinite;
+  display: flex;
+  height: 70px;
+  justify-content: center;
+  left: 574px;
+  position: absolute;
+  top: 400px;
+  z-index: 2;
+}
+
+#Netuno {
+  height: 47px;
+  width: auto;
+}
+
+@keyframes Netuno {
+
+  from {
+    transform: rotate(0deg) translate(-330px, 0) rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg) translate(-330px, 0) rotate(-360deg);
+  }
+}
+
+.planetas {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 1300px;
+  width: 100vw;
+}
+
+.planetas h2 {
+  line-height: 60px;
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.planetasList {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+  top: 12vh;
+  width: 100vw;
+  margin: 0 7vw 0 4vw;
+}
+
+.line {
+  background-color: white;
+  height: 1.5px;
+  opacity: 0.5;
+  position: absolute;
+  top: 31.8vh;
+  width: 100vw;
+  z-index: -1;
+}
+
+.planetaMercúrio {
+  align-items: center;
+  display: flex;
+  height: 40vh;
+  justify-content: center;
+}
+
+#planetaMercúrio {
+  height: auto;
+  width: 4vh;
+}
+
+.planetaVênus {
+  align-items: center;
+  display: flex;
+  height: 40vh;
+  justify-content: center;
+}
+
+#planetaVênus {
+  height: auto;
+  width: 11vh;
+}
+
+.planetaTerra {
+  align-items: center;
+  display: flex;
+  height: 40vh;
+  justify-content: center;
+}
+
+#planetaTerra {
+  height: auto;
+  width: 11.5vh;
+}
+
+.planetaMarte {
+  align-items: center;
+  display: flex;
+  height: 40vh;
+  justify-content: center;
+}
+
+#planetaMarte {
+  height: auto;
+  width: 7vh;
+}
+
+.planetaJúpiter {
+  align-items: center;
+  display: flex;
+  height: 40vh;
+  justify-content: center;
+}
+
+#planetaJúpiter {
+  height: auto;
+  width: 32vh;
+}
+
+.planetaSaturno {
+  align-items: center;
+  display: flex;
+  height: 40vh;
+  justify-content: center;
+}
+
+#planetaSaturno {
+  height: auto;
+  width: 46vh;
+}
+
+.planetaUrano, .planetaNetuno {
+  align-items: center;
+  display: flex;
+  height: 40vh;
+  justify-content: center;
+}
+
+#planetaUrano, #planetaNetuno {
+  height: auto;
+  width: 16vh;
+}
+
+.missionsContainer {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 30px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.9);
+  display: flex;
+  flex-direction: column;
+  margin-left: 4vw;
+  position: absolute;
+  top: 2000px;
+  width: 90vw;
+}
+
+.Missions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.Missions h2 {
+  line-height: 60px;
+  font-size: 40px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.missionsListContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-flow: wrap;
+  margin-bottom: 50px;
+}
+
+.missionTitle {
+  margin-left: 25px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 34px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.missionLine {
+  width: 100%;
+  height: 1px;
+  background-color: white;
+}
+
+.missionCardSubContainer {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  height: 50%;
+}
+.missionCardSubContainer div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 20px;
+}
+
+.missionCardYear {
+  width: 70px;
+}
+
+.missionCardCountry {
+  margin: 0 0 0 10px;
+  justify-content: center;
+  width: 210px;
+}
+
+.missionCardSubContainer p {
+  margin-left: 10px;
+}
+
+.missionCard {
+  margin: 1vw;
+  width: 496px;
+  height: 192px;
+  background: rgba(24, 26, 37, 0.5);
+  border: 1px solid #fff;
+  border-radius: 17px;
+  mix-blend-mode: hard-light;
+}
+
+.footerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  top: 4500px;
+  margin-left: 34vw;
+  margin-bottom: 50px;
+  position: absolute;
+  width: 400px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 30px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.9);
+}
+
+.footerContainer img {
+  margin: 15px;
+  width: auto;
+  height: 50px;
+}
+
