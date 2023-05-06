@@ -12,4 +12,4 @@ Maior desafio
 
 - Alinhar os planetas em suas respectivas órbitas
 
-Acesse o projeto <a href="https://solar-system-vinicius-virgilli.surge.sh/">aqui</a>.
+Acesse o projeto <a href="https://solar-system-vinicius-virgilli.surge.sh/" blank="">aqui</a>.
